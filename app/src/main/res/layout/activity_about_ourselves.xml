@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutOurselves"
+    android:background="#0000FF"
+  >
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="261dp"
+        android:layout_height="98dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="595dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:text="HealTechBD"
+        android:textColor="#FF0000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/abrar"
+        android:layout_width="395dp"
+        android:layout_height="99dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="450dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:text="Abrar Eyasir   Roll-12"
+        android:textColor="#FF0000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/araf"
+        android:layout_width="540dp"
+        android:layout_height="108dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-132dp"
+        android:layout_marginBottom="295dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:text="Abdullah Al Mahmud
+                        Roll-15"
+        android:textColor="#FF0000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/fahim"
+        android:layout_width="wrap_content"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="146dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:text="Fahim Shakil   Roll-06"
+        android:textColor="#FF0000"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>

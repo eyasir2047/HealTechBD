@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity">
+
+
+    <Button
+        android:id="@+id/AIConsultation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="627dp"
+        android:drawableBottom="@drawable/border"
+        android:text="AI Consultation"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/DoctorConsultation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/AIConsultation"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="538dp"
+        android:drawableBottom="@drawable/border"
+        android:text="Doctor's Consultation"
+        android:textSize="27.5dp" />
+
+    <Button
+        android:id="@+id/Diagnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/DoctorConsultation"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="439dp"
+        android:drawableBottom="@drawable/border"
+        android:text="Diagnosis"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/OrderMedicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Diagnosis"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="338dp"
+        android:drawableBottom="@drawable/border"
+        android:text="Order Medicine"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/AmbulanceService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="242dp"
+        android:drawableBottom="@drawable/border"
+        android:text="Ambulance Service"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/AboutOurselves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="139dp"
+        android:drawableBottom="@drawable/border"
+        android:text="About Ourselves"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
